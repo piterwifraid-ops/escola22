@@ -154,7 +154,7 @@ const Main: React.FC = memo(() => {
 
 					<p className="text-[17px] leading-relaxed text-[#333333]">
 						Os salários variam entre R$ <span className="text-[#1351B4] font-semibold">3.456,13</span> e R$
-						<span className="text-[#1351B4] font-semibold">4.290,71</span>, dependendo da região e da
+						<span className="text-[#1351B4] font-semibold"> 4.290,71</span>, dependendo da região e da
 						modalidade de atuação.
 					</p>
 
