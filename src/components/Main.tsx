@@ -44,7 +44,7 @@ const Main: React.FC = memo(() => {
 		<main className="container mx-auto px-1 py-2 flex-grow">
 			{/* Header Section - Carregamento prioritário */}
 			<div className="px-4 py-4">
-				<h1 className="text-3xl font-semibold mb-4 text-blue-800">AGENTE ESCOLA DO FUTURO 2025</h1>
+				<h1 className="text-3xl font-semibold mb-4 text-blue-800">AGENTE ESCOLA DO FUTURO 2026</h1>
 				
 				{/* Share Section - Simplificada */}
 				<div className="border-t border-b border-gray-300 py-3">
@@ -88,8 +88,8 @@ const Main: React.FC = memo(() => {
 						</button>
 					</div>
 					<div className="text-gray-700 text-sm">
-						<p>Publicado em 16/11/2025 17h37</p>
-						<p>Atualizado em 17/11/2025 00h29</p>
+						<p>Publicado em 16/12/2025 17h37</p>
+						<p>Atualizado em 17/12/2025 00h29</p>
 					</div>
 				</div>
 
@@ -206,7 +206,7 @@ const Main: React.FC = memo(() => {
 									<span className="text-[#1351B4] font-semibold">4 mil</span> tutoras(es) e mais de <span className="text-[#1351B4] font-semibold">10 mil</span> preceptoras(es) envolvidas(os)
 								</li>
 								<li>
-									<span className="text-[#1351B4] font-semibold">88%</span> dos estudantes diplomadas(os) até julho de <span className="text-[#1351B4]">2025</span>
+									<span className="text-[#1351B4] font-semibold">88%</span> dos estudantes diplomadas(os) até fevereiro de <span className="text-[#1351B4]">2026</span>
 								</li>
 							</ul>
 						</div>
