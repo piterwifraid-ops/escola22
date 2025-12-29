@@ -98,7 +98,7 @@ const Main: React.FC = memo(() => {
 					<h2 className="text-2xl font-bold mb-4">GOVERNO FEDERAL - MINISTÉRIO DA EDUCAÇÃO</h2>
 					<h4 className="text-xl font-semibold mb-2 text-blue-800">AGENTE ESCOLA DO FUTURO - PND</h4>
 					<img 
-						src="https://i.ibb.co/B5yb2TGz/Design-sem-nome-11.webp" 
+						src="https://i.ibb.co/JRSY7bdC/IMAGEM.webp" 
 						alt="Logo" 
 						loading="eager"
 						className="max-w-full h-auto"
