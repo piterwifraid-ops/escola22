@@ -12,6 +12,15 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
+    question: "Qual é a importância da estabilidade profissional para você?",
+    options: [
+      "Muito importante - é uma prioridade na minha vida",
+      "Importante - faz parte dos meus objetivos",
+      "Pouco importante - não é uma prioridade"
+    ]
+      },
+  {
+    id: 1,
     question: "Ao receber orientações sobre procedimentos da escola, você:",
     context: "As rotinas escolares exigem que os colaboradores sigam orientações pedagógicas e administrativas com atenção.",
     options: [
