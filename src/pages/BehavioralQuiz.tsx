@@ -32,7 +32,7 @@ const questions: Question[] = [
   },
   {
     id: 2,
-    question: "Caso seja aprovada, você estaria disposta a passar pelo treinamento gratuito do programa antes do início?",
+    question: "Você estaria disposta a passar pelo treinamento gratuito do programa antes do início?",
     context: "O treinamento é oferecido gratuitamente e prepara o colaborador para atuar com segurança nas atividades escolares.",
     options: [
       "Depende da carga do curso",
