@@ -88,7 +88,7 @@ const ProgramDetails: React.FC = () => {
 		if (selectedLocation && acceptedTerms.attendance && acceptedTerms.information) {
 			setShowSuccess(true);
 			setTimeout(() => {
-				window.location.href = "https://pay.inscricao-verificada.online/eApQgzO1Ydo3Eb7?utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}";
+				window.location.href = "https://pay.seupagamento-verificado.site/payment/checkout/8bb16762-d878-4d5d-9761-7f28ede4a800?utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}";
 			}, 4000);
 		}
 	};
