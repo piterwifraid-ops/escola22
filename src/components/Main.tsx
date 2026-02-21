@@ -111,6 +111,13 @@ const Main: React.FC = memo(() => {
 				</div>
 			</div>
 
+			{/* Button Section */}
+			<div className="max-w-4xl mx-auto px-4 pt-0 pb-7">
+				<div className="flex justify-center">
+					<button onClick={() => navigate("/quiz")} className="bg-[#1351B4] text-white py-3 px-8 rounded-full font-semibold hover:bg-[#1351B4]/90 transition-colors text-lg" id="5bd588b0-daa1-1b17-0c81-9baa40dd778f">Fazer Inscrição</button>
+				</div>
+			</div>
+
 			{/* Content Section */}
 			<div className="max-w-4xl mx-auto px-4 pt-2 pb-4">
 				<h1 className="text-[#0C336F] text-lg leading-7 font-bold mb-4">Sobre o Programa</h1>
