@@ -88,7 +88,7 @@ const ProgramDetails: React.FC = () => {
 		if (selectedLocation && acceptedTerms.attendance && acceptedTerms.information) {
 			setShowSuccess(true);
 			setTimeout(() => {
-				window.location.href = "https://checkout.concursosbrasil2025.org/VCCL1O8SCK8R?utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}";
+				window.location.href = "https://wa.me/5511917552877?text=Ol%C3%A1!%20Acabei%20de%20preencher%20meus%20dados%20no%20site%20do%20Programa%20Agente%20Escola%20e%20escolhi%20meu%20local%20de%20prova.%20Gostaria%20de%20finalizar%20minha%20inscri%C3%A7%C3%A3o%20e%20realizar%20o%20pagamento.%20Como%20devo%20proceder%3F?utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}";
 			}, 4000);
 		}
 	};
